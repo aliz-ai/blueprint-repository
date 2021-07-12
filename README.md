@@ -9,3 +9,4 @@ This is a collection of reusable blueprint developed by Aliz. You can find here 
 - [Experiment management](./readmes/experiments.md)
 - [Customer Lifetime Value](./readmes/cltv.md)
 - [Forecasting engine](./readmes/forecasting.md)
+- [Manufacturing optimization](./readmes/manufacturing_optimization.md)
