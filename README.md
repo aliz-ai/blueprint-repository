@@ -8,3 +8,4 @@ This is a collection of reusable blueprint developed by Aliz. You can find here 
 - [ML Ops infrastructure: Pipelines & model serving](./readmes/mlops_infra.md)
 - [Experiment management](./readmes/experiments.md)
 - [Customer Lifetime Value](./readmes/cltv.md)
+- [Forecasting engine](./readmes/forecasting.md)
