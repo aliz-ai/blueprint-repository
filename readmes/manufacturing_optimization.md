@@ -40,3 +40,7 @@ The initial setup is performed by Aliz Data Scientists using first batch of hist
 ├── optimization                        <- Main code library, including optimization simulation engine.
 └── terraform                           <- Infrastructure component definition.
 ```
+
+## Repository URL
+
+[https://github.com/aliz-ai/manufacturing_optimization](https://github.com/aliz-ai/manufacturing_optimization)
