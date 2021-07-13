@@ -1,6 +1,6 @@
 # Forecasting blueprint
 
-The aim of this project is to create a product- and industry-agnosting forecasting engine. The engine is powered by both statistical forecasting methodologies with state-of-the-art technologies. With this engine, Clients can conveniently train, interpret and serve forecasting models at scale.
+The aim of this project is to create a product- and industry-agnostic forecasting engine. The engine is powered by both statistical forecasting methodologies with state-of-the-art technologies. With this engine, Clients can conveniently train, interpret and serve forecasting models at scale.
 
 ## Features
 
@@ -12,7 +12,7 @@ The aim of this project is to create a product- and industry-agnosting forecasti
 
 ## How to use
 
-There are two main parts in the code now. The Kubeflow Pipeline implemented in a Python file and a Python library packaged as base image for the pipeline components.
+There are two main parts in the code now: the Kubeflow Pipeline implemented in a Python file and a Python library packaged as base image for the pipeline components.
 
 To use this code you need to:
 
@@ -23,7 +23,7 @@ To use this code you need to:
 - Compile Kubeflow Pipeline
 - Upload the Pipeline on Kubeflow UI
 - Create a Pipeline Run on Kubeflow UI
-- Later steps 3. to 5. can be automatized with a Python script.
+- Later steps 5. to 7. can be automatized with a Python script.
 
 ### Prerequisites
 Set GCP project and export it as a shell variable.
@@ -36,10 +36,10 @@ You have the option to build and push the container in one step via CloudBuild b
 ```
 gcloud builds submit --config kubeflow/pipelines/base/cloudbuild.yaml
 ```
-###Compile Kubeflow pipeline
+### Compile Kubeflow pipeline
 The Kubeflow Pipeline is defined in kubeflow/pipelines/pipelines directory.
 
-To use the pipeline you have to compile it with the dsl-compile command.
+To use the pipeline you have to compile it with the `dsl-compile `command.
 
 The command is part of the Kubeflow Pipelines SDK. To have access to this command the SDK have to be installed:
 ```
